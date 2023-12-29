@@ -9,7 +9,7 @@ export const Container = style.button`
     border: 0;
     padding: 0 16px;
     margin-top: 16px;
-    border-radius: 500;
+    border-radius: 10px;
 
     &:disabled {
         opacity: 0.5;   
