@@ -34,7 +34,7 @@ export function SignIn() {
                     onChange={e => setEmail(e.target.value)}
                 />
 
-                <Input 
+                <Input  
                     placeholder="Senha"
                     type="password"
                     icon={FiLock}
