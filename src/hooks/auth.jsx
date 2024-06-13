@@ -19,7 +19,7 @@ function AuthProvider({ children }) {
     } 
 
     return(
-        <AuthContext.Provider value={{ email: 'iago@gmail.com' }}>
+        <AuthContext.Provider value={{ signIn }}>
             {children}
         </AuthContext.Provider>
     )
