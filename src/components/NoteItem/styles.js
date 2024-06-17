@@ -4,6 +4,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
 
+
     background-color: ${({ theme, isNew }) => isNew ? "transparent" : theme.COLORS.BACKGROUND_900};
     color: ${({ theme, isNew }) => theme.COLORS.GRAY_300};
 
@@ -39,5 +40,6 @@ export const Container = styled.div`
 
         &::placeholder {
             color: ${({ theme }) => theme.COLORS.GRAY_300};
+        }
     }
 `;
