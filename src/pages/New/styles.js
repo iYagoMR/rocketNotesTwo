@@ -21,11 +21,11 @@ export const Container = styled.div`
         justify-content: space-between;
         flex-wrap: wrap;
 
-        gap: 15px;
+        gap: 13px;
 
         > div {
-            max-width: 43%;
-            flex: 43%;
+            max-width: 45%;
+            flex: 45%;
         }
     }
 `;
@@ -41,7 +41,7 @@ export const Form = styled.form`
 
         margin-bottom: 36px;
 
-        a {
+        button {
             font-size: 20px;
             color: ${({theme}) => theme.COLORS.GRAY_100};
         }

@@ -12,12 +12,13 @@ import { Container, Form, Background } from "./styles";
 export function SignIn() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
- 
     const { signIn } = useAuth();
+
+    
 
     function handleSignIn(){
         signIn({email, password});
-    }
+    } 
 
     return (
         <Container>
